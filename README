@@ -1,1 +1,8 @@
-Hola Mundo 
+/*teng dudas en cuanto a lo q a mi me toco... pero lo hice asi.*/
+
+a = [x | x <- [3,6..3000], x `mod` 2 /= 0]
+
+/*esto esta en mi archivo .hs
+  ,en consola pues solo invoco a
+  y me da la lista de numeros ya filtrados impares
+*/
